@@ -1,0 +1,5 @@
+An assignment for my advanced SQL class.
+
+I was required to create a simulation of a kanban setup in a factory setting.  This simulation was to run entirely within SQL Server.
+
+The simulation was to run for 92 hours subjective time.  Most of my classmates created polling solutions that would take in excess of 20 minutes to execute.  I came up with an event notification system that could run in seconds.

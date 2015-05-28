@@ -1,0 +1,7 @@
+During a previous job, I was required to make SSIS packages for many different tables.  SSIS requires that metadata be known at compile time for each table, so there was a lot of copy and paste work.  
+
+Instead of that, I crafted some scripts that would pull the necessary information out of the tables and present me with the scripts I could insert in the SSIS packages.
+
+Of course, these scripts wrote scripts that would later turn around and produce their own scripts.  T-SQL -> VB -> T-SQL.
+
+It saved me a lot of time and I managed to repurpose them for our capstone project a year later.
